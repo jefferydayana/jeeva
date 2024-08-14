@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset=" UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+</head>
+
+<body bgcolor="lightblue">
+    <link rel="stylesheet" href="style.css">
+<h2 class="head">Quiz World</h2>
+    <br>
+    <div class="one">
+        <center>
+            <div class="one1">
+        <button class="st" onclick="next(1)" >Start</button>
+        </div>
+        </center>
+        </div>
+    
+    <div class="one">
+        
+       
+       
+    <h3>1.What is the output of the following code?<br></h3>
+    
+    <input type="radio" name="radiobutton1" id="correct1"/>
+    <label>Hello, World</label><br>
+    
+    <input type="radio" name="radiobutton1" />
+    <label>Hello World</label><br>
+    <input  type="radio" name="radiobutton1" />
+    <label>HelloWorld</label><br>
+    <input type="radio" name="radiobutton1" />
+    <label>Error</label><br>
+    <button class="next" onclick="next(2)">Next</button>
+</div>
+
+
+
+<div class="one">
+   
+       
+    <h3>2.Which of the following data types is used to store whole numbers in Java?<br></h3>
+    
+    <input type="radio" name="radiobutton2" id="correct2"/>
+    <label> int</label><br>
+    
+    <input type="radio" name="radiobutton2" />
+    <label >double</label><br>
+    <input type="radio" name="radiobutton2" />
+    <label > boolean</label><br>
+    <input type="radio" name="radiobutton2"  />
+    <label >char</label><br>
+    <br>
+    <button class="next" onclick="next(3)" >Next</button>
+    
+    
+</div>
+<div class="one">
+   
+       
+<h3>3.What is the purpose of the public static void main(String[] args) method in Java?<br></h3>
+
+<input type="radio" name="radiobutton3"/>
+<label> To declare a variable</label><br>
+
+<input type="radio" name="radiobutton3" />
+<label >To define a class</label><br>
+<input type="radio" name="radiobutton3" />
+<label >To start the program</label><br>
+<input type="radio" name="radiobutton3" id="correct3" />
+<label >All of the above</label><br>
+<br>
+<button class="next" onclick="next(4)" >Next</button>
+</div>
+
+
+
+<div class="one">
+    
+       
+<h3>4.What is the difference between '==' and 'equals()' in Java?<br></h3>
+
+<input type="radio" name="radiobutton4"/>
+<label> == checks for equality, .equals() checks for identity</label><br>
+
+<input type="radio" name="radiobutton4" id="correct4"/>
+<label >== checks for identity, .equals() checks for equality</label><br>
+<input type="radio" name="radiobutton4" />
+<label >== checks for equality, .equals() checks for type</label><br>
+<input type="radio" name="radiobutton4"  />
+<label >== checks for type, .equals() checks for equality</label><br>
+<br>
+<button class="next" onclick="next(5)" >Next</button>
+</div>
+
+
+
+
+
+<div class="one">
+   
+       
+<h3>5.Which Java data type is used to store decimal numbers?<br></h3>
+
+<input type="radio" name="radiobutton5"/>
+<label> int</label><br>
+
+<input type="radio" name="radiobutton5" id="correct5"/>
+<label >double</label><br>
+<input type="radio" name="radiobutton5" />
+<label >float</label><br>
+<input type="radio" name="radiobutton5"  />
+<label >boolean</label><br>
+<br>
+<button class="next" onclick="next(6)" >Next</button>
+</div>
+
+<div class="one">
+   
+<h3>6.Which Java data type is used to store true or false values?<br></h3>
+
+<input type="radio" name="radiobutton6"/>
+<label>int </label><br>
+
+<input type="radio" name="radiobutton6" />
+<label >double</label><br>
+<input type="radio" name="radiobutton6" id="correct6"/>
+<label >boolean</label><br>
+<input type="radio" name="radiobutton6" />
+<label >char</label><br>
+<br>
+<button class="next" onclick="next(7)" >Next</button>
+</div>
+
+<div class="one">
+   
+       
+<h3>7. What is the difference between break and continue statements in Java?<br></h3>
+
+<input type="radio" name="radiobutton7" id="correct7"/>
+<label>break exits the loop, continue skips to the next iteration </label><br>
+
+<input type="radio" name="radiobutton7" />
+<label > break skips to the next iteration, continue exits the loop</label><br>
+<input type="radio" name="radiobutton7" />
+<label >break exits the program, continue skips to the next iteration</label><br>
+<input type="radio" name="radiobutton7"  />
+<label >break skips to the next iteration, continue exits the program</label><br>
+<br>
+<button class="next" onclick="next(8)" >Next</button>
+</div>
+
+
+
+
+
+<div class="one">
+   
+       
+<h3>8.What is the default value of an `int` variable in Java?<br></h3>
+
+<input type="radio" name="radiobutton8" id="correct8"/>
+<label>  0</label><br>
+
+<input type="radio" name="radiobutton8" />
+<label >null</label><br>
+<input type="radio" name="radiobutton8" />
+<label >undefined</label><br>
+<input type="radio" name="radiobutton8"  />
+<label > 1</label><br>
+<br>
+<button class="next" onclick="next(9)" >Next</button>
+</div>
+
+<div class="one">
+    
+       
+<h3>9.What is the size of an `int` in Java?<br></h3>
+
+<input type="radio" name="radiobutton9"/>
+<label>8 bits </label><br>
+
+<input type="radio" name="radiobutton9" />
+<label >16 bits</label><br>
+<input type="radio" name="radiobutton9" id="correct9"/>
+<label >32 bits</label><br>
+<input type="radio" name="radiobutton9"  />
+<label >64 bits</label><br>
+<br>
+<button class="next" onclick="next(10)" >Next</button>
+</div>
+
+<div class="one">
+    
+       
+<h3>10. What does the `equals()` method in the `Object` class compare?<br></h3>
+
+<input type="radio" name="radiobutton10" id="correct10"/>
+<label> Memory addresses of the objects</label><br>
+
+<input type="radio" name="radiobutton10" />
+<label >Values of the objects</label><br>
+<input type="radio" name="radiobutton10" />
+<label >Data types of the objects</label><br>
+<input type="radio" name="radiobutton10"  />
+<label >Both a and b</label><br>
+<br>
+<button class="next" onclick="next(11)" >Result</button>
+</div>
+
+
+
+
+<div class="one" >
+    <b><span class="timer" id="sc">Score:10/0</span></b>
+       
+   <div class="h3">
+    <h3 id="c">....</h3>
+    <h3 id="c1">....</h3>
+    <h3 id="c2">....</h3>
+    <h3 id="c3">....</h3>
+    <h3 id="c4">....</h3>
+    <h3 id="c5">....</h3>
+    <h3 id="c6">....</h3>
+    <h3 id="c7">....</h3>
+    <h3 id="c8">....</h3>
+    <h3 id="c9">....</h3>
+    
+    
+
+    
+</div>
+
+    
+<button class="next check"  onclick="update()">Check Answer</button><br>
+
+</div>
+
+
+
+
+
+
+
+    
+  <script src="web.js"></script>
+  
+    
+</body>
+</html>

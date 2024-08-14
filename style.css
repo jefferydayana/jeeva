@@ -1,0 +1,133 @@
+.one{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(75, 73, 75) 0px 20px 30px -10px;
+    width: 30%;
+    top: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: 35%;
+    left: 30%;
+   
+    display: none;
+    
+
+
+
+    
+}
+.head{
+    background-color:  pink;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgb(75, 73, 75) 0px 20px 30px -10px;
+    width: 95%;
+    
+    margin: 0%;
+  
+    
+   
+    
+}
+.next{
+    background-color: black;
+    color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+ border-radius: 5px;
+ outline: none;
+ cursor: pointer;
+ 
+}
+
+.st{
+    background-color: black;
+    color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: relative;
+  font-size: larger;
+  border-radius: 3px;
+  
+  
+ 
+ outline: invert;
+ cursor: pointer;
+}
+
+
+.timer{
+    margin-left: 45%;
+    padding: 5px;
+    background-color: black;
+    border-radius: 3px;
+    color: white;
+}
+.score{
+    margin-top: 50px;
+}
+
+
+
+    
+
+.next{
+    margin-left: 85%;
+    position: relative;
+}
+.check{
+    margin-left: 70%;
+    position: relative;
+}
+.m{
+    
+    margin-left: 80%;
+}
+
+@media  all and (max-width: 480px) {
+    .one{
+        
+    
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: rgb(75, 73, 75) 0px 20px 30px -10px;
+    width: 70%;
+   
+    
+    margin: 10px;
+    position: absolute;
+    top: 40%;
+    left: 7%;
+    
+    
+    }
+    .next{
+        
+        position: relative;
+    }
+    body{
+        background-color: black;
+    }
+    .head{
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: rgb(75, 73, 75) 0px 20px 30px -10px;
+        width: 80%;
+        color: black;
+       word-spacing: 10px;
+       text-align: center;
+       font-size: xx-large;
+        background-color: wheat;
+        margin: 10px;
+        position: absolute;
+        top: 5%;
+        left: 2%;
+    }
+    
+}
